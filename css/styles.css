@@ -1,10 +1,9 @@
 * {
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-body {
+.body {
     margin: 0;
 }
 
@@ -12,17 +11,12 @@ body {
 /* Style the header */
 
 .header {
-    background-color: #ae2029;
-    padding: 20px;
+    background-image: url(../img/header4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
     text-align: center;
-}
-
-.header h1 {
-    font-size: 60px;
-}
-
-.header p {
-    font-size: 40px;
+    color: white;
 }
 
 
@@ -31,11 +25,20 @@ body {
 
 /*Ejemplo de estilos por clase*/
 
-.column {
+.one-column {
     float: left;
     width: 100%;
     /*padding: 0(distancia arriba) 20% (derecha) 0(abajo) 20%(izquierda);*/
     padding: 20px 20%;
+}
+
+.one-column h1,
+.one-column h2 {
+    text-align: center;
+}
+
+#cadetblue {
+    background-color: cadetblue;
 }
 
 
@@ -47,27 +50,28 @@ body {
     clear: both;
 }
 
-.column h2 {
-    color: green;
-    text-align: center;
-}
-
 
 /*Image Gallery*/
 
-.gallery {
+.three-column {
     padding: 20px;
     float: left;
     width: 33.33%;
 }
 
-.gallery img {
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.three-column img {
     width: 100%;
 }
 
-.gallery .desc {
+.three-column .desc {
     /*desc es una etiqueta*/
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
