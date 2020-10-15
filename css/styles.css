@@ -46,7 +46,8 @@
 }
 
 #cadetblue {
-    background-color: cadetblue;
+    background-color: #003c42;
+    color: white;
 }
 
 
@@ -113,7 +114,12 @@
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width:600px) {
-    .column {
+    .two-column,
+    .three-column,
+    .four-column {
         width: 100%;
+    }
+    .header {
+        background-image: url();
     }
 }
