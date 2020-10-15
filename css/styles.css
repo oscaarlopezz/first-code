@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .body {
@@ -50,19 +50,19 @@
     clear: both;
 }
 
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
 
-/*Image Gallery*/
+
+/*Three columns Gallery*/
 
 .three-column {
     padding: 20px;
     float: left;
     width: 33.33%;
-}
-
-.two-column {
-    padding: 20px;
-    float: left;
-    width: 50%;
 }
 
 .three-column img {
@@ -72,6 +72,32 @@
 .three-column .desc {
     /*desc es una etiqueta*/
     padding: 10px;
+    text-align: center;
+}
+
+
+/*Four columns*/
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+}
+
+
+/*Footer*/
+
+#footer-a {
+    background-color: #21252995;
+}
+
+#footer-a p {
+    color: white;
+}
+
+#footer-b {
+    color: #868e96;
+    background-color: #212529;
     text-align: center;
 }
 
