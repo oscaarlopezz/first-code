@@ -19,6 +19,14 @@
     color: white;
 }
 
+.header h1 {
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 40px;
+}
+
 
 /* Create three equal columns that floats next to each other */
 
